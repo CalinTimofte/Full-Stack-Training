@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    
+    <body>
+        <div class="content-container">
+            <h1>Sign up</h1>
+            <p>It's quick and easy.</p>
+            <form> 
+                <div class="text-boxes-container">
+                    <input type="text" name="first_name" placeholder="First Name" class="small" id="first-name">
+                    <input type="text" name="last_name" placeholder="Last Name" class="small">
+
+                    <br>
+
+                    <input type="text" name="phone_nb_or_e-mail" placeholder="Mobile number or email" class="big">
+
+                    <br>
+
+                    <input type="password" name="user_password" placeholder="New password" class="big">
+                </div>
+                <div class="birthday">
+                    <p class="label">Birthday</p>
+                    
+                    <select name="month">
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                    </select>
+                    
+                    <input type="number" min="1" max="31" name="day">
+                    <input type="number" min="1900" max="2020" name="year">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+                
+                <div class="gender"> 
+                    <p class="label">Gender</p>
+                    
+                    <input type="radio" id="female" name="female" value="female">
+                    <label for="female">Female</label>
+                    
+                    <input type="radio" id="male" name="male" value="male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" id="custom" name="custom" value="custom">
+                    <label for="custom">Custom</label>
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+                
+                <p id="TOS">By clicking Sign Up, you agree to our <span>Terms</span>. Learn how we <br> collect, use and share your data in our <span>Data Policy</span>
+                    and how we <br> use cookies and simillar technology in our <span>Cookies Policy</span>. You <br>may recieve SMS Notifications from us and can opt
+                    out at any time.</p>
+                
+                <input type="submit" value="Sign up">
+            </form>
+        </div>
+    </body>
+
+</html>

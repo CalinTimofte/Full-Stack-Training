@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #6aa84f;
+    font-family: sans-serif
+}
+
+.content-container {
+    background-color:#ffffff;
+    height: 40vh;
+    width:33vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.follow, .header{
+    border-bottom: 0.01em solid #7e8299;
+}
+
+.header {
+    height: 10%;
+}
+
+.header h1{
+    font-weight: 800;
+}
+
+.header, .show-more{
+    position: relative;
+}
+
+.show-more {
+    height: 15%;
+    color: #519ae1;
+}
+
+.show-more p, .header h1{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.content-container > *{
+    padding-left: 0.7rem;
+/*    padding-right: 0.7rem;*/
+}
+
+.follow {
+    height: 25%;
+    display: grid;
+    grid-template: 100% / repeat(7, 1fr); 
+    position: relative;
+    
+}
+
+.img{
+    grid-column: 1 / span 1;
+    position: relative;
+}
+
+.img img{
+    max-width: 100%;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+
+.text-container {
+    grid-column: 2 / span 2;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+
+.follow button{
+    grid-column: 6 / span 2;
+    border-radius: 30px;
+    color: #519ae1;
+    border-color: #519ae1;
+    background-color: white;
+    height: 50%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: none;
+}
+
+.account-name {
+    font-weight: bold;
+}
+
+.account-at {
+    color: #7e8299;
+}
