@@ -9,14 +9,25 @@ body{
 
 .left-screen-side, .right-screen-side{
     width: 50vw;
-    height: 100vh;
-    float: left;
+    height: 95vh;
+    position: fixed;
+    top: 0;
 }
 
 .left-screen-side{
+    left: 0;
     background-color: #1da1f2;
 }
 
 .right-screen-side{
-    background-color: red;
+    right: 0;
+}
+
+
+nav{
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
 }
