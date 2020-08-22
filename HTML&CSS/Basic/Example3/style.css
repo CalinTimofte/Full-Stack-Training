@@ -21,7 +21,6 @@ body{
 
 .left-screen-side img{
     width: 100%;
-    color: blue
 }
 
 .right-screen-side{
@@ -35,4 +34,11 @@ nav{
     background-color: black;
     position: fixed;
     bottom: 0px;
+}
+
+.feature-pannel {
+    background-color: pink;
+    width: 50vw;
+    height: 50vh;
+    z-index: 10;
 }
