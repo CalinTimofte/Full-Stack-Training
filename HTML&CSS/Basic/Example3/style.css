@@ -19,6 +19,11 @@ body{
     background-color: #1da1f2;
 }
 
+.left-screen-side img{
+    width: 100%;
+    color: blue
+}
+
 .right-screen-side{
     right: 0;
 }
