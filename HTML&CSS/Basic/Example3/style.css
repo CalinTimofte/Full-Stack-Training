@@ -5,6 +5,7 @@
 
 body{
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .left-screen-side, .right-screen-side{
@@ -47,4 +48,22 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.text-box *{
+    display: inline;
+}
+
+.text-box{
+    color: white;
+    padding-bottom: 6%;
+    white-space: nowrap;
+}
+
+.text-box p{
+}
+
+
+.text-box i{
+    padding-right: 2%;
 }
