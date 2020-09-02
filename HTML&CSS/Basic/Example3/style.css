@@ -86,13 +86,17 @@ nav{
     height: 3vh;
 }
 
-button:first-of-type{
+.join-pannel button:first-of-type{
     color: white;
     background-color: #1da1f2;
 }
 
-button:last-of-type{
+.join-pannel button:last-of-type{
     color: #1da1f2;
+}
+
+.password{
+    display: inline;
 }
 
 
