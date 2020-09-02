@@ -96,8 +96,30 @@ nav{
     color: #1da1f2;
 }
 
-.password{
-    display: inline;
+.login{
+    width: 40vw;
+    float: right;
+}
+
+.login form{
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(3, 1fr);
+}
+
+#uname{
+    grid-area: 1 / 1 / 1 / span 1;
+}
+
+#password{
+    grid-area: 1 / 2 / 1 / span 1;
+}
+
+#btn{
+    grid-area: 1 / 3 / 1 / span 1;
+}
+
+#label{
+    grid-area: 2 / 2 / 2 / span 1;
 }
 
 .navtext{
