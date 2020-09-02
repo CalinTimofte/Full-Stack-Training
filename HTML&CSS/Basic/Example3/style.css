@@ -17,10 +17,15 @@ body{
 .left-screen-side{
     left: 0;
     background-color: #1da1f2;
+    position: relative;
+    background-image: url(image-Twitter-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .left-screen-side img{
     width: 100%;
+    position: absolute;
 }
 
 .right-screen-side{
@@ -37,8 +42,9 @@ nav{
 }
 
 .feature-pannel {
-    background-color: pink;
-    width: 50vw;
-    height: 50vh;
-    z-index: 10;
+/*    centering*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
