@@ -18,9 +18,19 @@
 
 }
 
+.btn--blue:hover{
+    background-image: none;
+    background-color: #2d73a0;
+}
+
 .btn--success{
     background-image: linear-gradient(to right, #24a158 , #28c36a);
     border: 2px solid #24a158;
+}
+
+.btn--success:hover{
+    background-image: none;
+    background-color: #24a158;
 }
 
 .btn--danger{
@@ -28,10 +38,20 @@
     border: 2px solid #bb362a;  
 } 
 
+.btn--danger:hover{
+    background-image: none;
+    background-color: #bb362a;
+}
+
 .btn--warning{
     background-image: linear-gradient(to right, #ffcc00 , #ffff00); 
     border: 2px solid #ffcc00;  
 } 
+
+.btn--warning:hover{
+    background-image: none;
+    background-color: #ffcc00;
+}
 
 .btn--outline{
     background-image: none;
@@ -52,6 +72,11 @@
 .btn--warning.btn--outline{
     color: #ffcc00;
 }
+
+.btn--blue.btn--outline:hover, .btn--success.btn--outline:hover, .btn--danger.btn--outline:hover, .btn--warning.btn--outline:hover{
+    color: #fbfdfb;
+} 
+
 
 .btn--loading::after{
     content : " ";
@@ -88,3 +113,7 @@
 .btn--warning.btn--outline::after{
     background-color: #ffcc00;
 }
+
+.btn--blue.btn--outline:hover::after, .btn--success.btn--outline:hover::after, .btn--danger.btn--outline:hover::after, .btn--warning.btn--outline:hover::after{
+    background-color: #fbfdfb;
+} 
