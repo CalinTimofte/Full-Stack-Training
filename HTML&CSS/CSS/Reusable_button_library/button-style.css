@@ -1,0 +1,77 @@
+    .btn { 
+            background-color: white;
+            border: none;
+            color: #fbfdfb;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer; 
+            border-radius: 0.2em;
+        }
+
+        .btn--blue{
+            background-image: linear-gradient(to right, #2d73a0 , #36a0e5);
+            border: 2px solid #2d73a0;
+            
+        }
+
+        .btn--success{
+            background-image: linear-gradient(to right, #24a158 , #28c36a);
+            border: 2px solid #24a158;
+        }
+
+        .btn--danger{
+            background-image: linear-gradient(to right, #bb362a , #e34a47); 
+            border: 2px solid #bb362a;  
+        } 
+
+        .btn--outline{
+            background-image: none;
+        }
+
+        .btn--blue.btn--outline{
+            color: #2d73a0;
+        } 
+
+        .btn--success.btn--outline{
+            color: #24a158;
+        }
+
+        .btn--danger.btn--outline{
+            color: #bb362a;
+        }
+
+        .btn--loading::after{
+            content : " ";
+            display: block;
+            background-color: white;
+            height: 0.1em;
+            position: relative;
+            -webkit-animation: loading 1s linear 0s infinite alternate;
+            animation: loading 1s linear 0s infinite alternate;
+        }
+
+        @keyframes loading{
+            from {left:-2em;}
+            to {left:2em;}
+        }
+
+        @-webkit-keyframes loading{
+            from {left:-2em;}
+            to {left:2em;}
+        }
+
+        .btn--blue.btn--outline::after{
+            background-color: #2d73a0;
+        }
+
+        .btn--success.btn--outline::after{
+            background-color: #24a158;
+        }
+
+        .btn--danger.btn--outline::after{
+            background-color: #bb362a;
+        }
