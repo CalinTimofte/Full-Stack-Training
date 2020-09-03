@@ -1,0 +1,10 @@
+.box--diagonal{
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+    height: 10vh;
+    border: solid black 0.2vw;
+    position: relative;
+    top: 75vh;
+    left: 80vw;
+}
