@@ -11,9 +11,14 @@ body{
     width: 30vw;
     height: 19.2vh;
     border: solid black 0.01em;
+    position: relative;
 }
 
 .container{
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-left: 20vw;
+}
+
+.right{
+    left: 30vw;
 }
