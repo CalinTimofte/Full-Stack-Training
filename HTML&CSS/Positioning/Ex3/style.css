@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.box{
+    width: 30vw;
+    height: 19.2vh;
+    border: solid black 0.01em;
+}
+
+.container{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
