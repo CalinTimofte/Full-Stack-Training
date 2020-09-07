@@ -21,4 +21,6 @@ main{
 
 section{
     background-color: #e4f0e0;
+    opacity: 0.3;
+    transform: translate(0, 22.5vh)
 }
