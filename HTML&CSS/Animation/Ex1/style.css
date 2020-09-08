@@ -22,4 +22,26 @@ body{
     background-color: white;
     margin-right: 1vw;
     display: inline-block;
+    animation: loading 0.5s ease-in-out  infinite alternate;
+}
+
+@keyframes loading{
+    from {height: 25vh;}
+    to {height: 40vh;}
+}
+
+#el2{
+    animation-delay: 0.1s;
+}
+
+#el3{
+    animation-delay: 0.2s;
+}
+
+#el4{
+    animation-delay: 0.3s;
+}
+
+#el5{
+    animation-delay: 0.4s;
 }
