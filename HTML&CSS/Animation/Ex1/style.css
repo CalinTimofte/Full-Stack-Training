@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #19bc99;
+    justify-content: center;
+    align-items: center;
+}
+
+.element{
+    width: 5vw;
+    height: 25vh;
+    background-color: white;
+    margin-right: 1vw;
+    display: inline-block;
+}
