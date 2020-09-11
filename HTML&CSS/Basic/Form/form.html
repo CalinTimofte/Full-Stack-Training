@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div>
+            <form>
+                <h1>Checkout form</h1>
+
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name">
+                
+                <br>
+
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email">
+                
+                <br>
+                
+                <label for="address">Address*</label>
+                <textarea id="address" name="address"></textarea>
+                
+                <br>
+                
+                <label for="pay">Payment method*</label>
+                <select name="pay" id="pay">
+                    <option value="--">--</option>
+                </select>
+                
+                <br>
+                
+                <p>Gender</p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                
+                <br>
+                
+                <label for="upload">👆Click to upload photo</label>
+                <input type="file" hidden name="upload" id="upload">
+                
+                <br>
+                
+                <input type="submit" value="Pay">
+                
+            </form>
+        </div>
+    </body>
+</html>
