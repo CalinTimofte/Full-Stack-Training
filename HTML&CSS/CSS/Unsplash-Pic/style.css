@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.body-cover{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-image: url(photo-1600225424497-bc9e6bd4ea21.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20vw;
+    height: 60vh;
+}
